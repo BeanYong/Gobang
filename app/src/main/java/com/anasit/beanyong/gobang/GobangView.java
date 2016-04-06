@@ -41,7 +41,7 @@ public class GobangView extends View {
     /**
      * 最大边数
      */
-    private final static int MAXLINE = 10;
+    private final static int MAXLINE = 14;
     /**
      * Canvas绘图使用的画笔
      */
@@ -240,7 +240,7 @@ public class GobangView extends View {
             }
         }
 
-        if (count == 5) {
+        if (count >= 5) {
             return true;
         }
 
@@ -252,7 +252,7 @@ public class GobangView extends View {
             }
         }
 
-        if (count == 5) {
+        if (count >= 5) {
             return true;
         }
         return false;
@@ -281,7 +281,7 @@ public class GobangView extends View {
             }
         }
 
-        if (count == 5) {
+        if (count >= 5) {
             return true;
         }
 
@@ -293,7 +293,7 @@ public class GobangView extends View {
             }
         }
 
-        if (count == 5) {
+        if (count >= 5) {
             return true;
         }
         return false;
@@ -322,7 +322,7 @@ public class GobangView extends View {
             }
         }
 
-        if (count == 5) {
+        if (count >= 5) {
             return true;
         }
 
@@ -334,7 +334,7 @@ public class GobangView extends View {
             }
         }
 
-        if (count == 5) {
+        if (count >= 5) {
             return true;
         }
         return false;
@@ -363,7 +363,7 @@ public class GobangView extends View {
             }
         }
 
-        if (count == 5) {
+        if (count >= 5) {
             return true;
         }
 
@@ -375,7 +375,7 @@ public class GobangView extends View {
             }
         }
 
-        if (count == 5) {
+        if (count >= 5) {
             return true;
         }
         return false;
